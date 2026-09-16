@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans:    'Inter', sans-serif;
+  --font-display: 'Plus Jakarta Sans', sans-serif;
+
+  --color-brand-50:  #eef5ff;
+  --color-brand-100: #daeaff;
+  --color-brand-200: #bdd8ff;
+  --color-brand-300: #90bdff;
+  --color-brand-400: #5c99ff;
+  --color-brand-500: #3673f5;
+  --color-brand-600: #1f52ea;
+  --color-brand-700: #173dd8;
+  --color-brand-800: #1932af;
+  --color-brand-900: #1a2f8a;
+  --color-brand-950: #141e57;
+
+  --color-surface:        #f8f9fc;
+  --color-surface-card:   #ffffff;
+  --color-surface-border: #e8eaf2;
+
+  --shadow-card:     0 1px 3px 0 rgba(16,24,40,0.06), 0 1px 2px -1px rgba(16,24,40,0.04);
+  --shadow-elevated: 0 4px 16px 0 rgba(16,24,40,0.10);
+}
+
+html, body, #app { height: 100%; }
+body { background: #f8f9fc; font-family: 'Inter', sans-serif; }
+
+.sidebar-link { transition: background 0.15s, color 0.15s; }
+.sidebar-link:hover { background: rgba(54,115,245,0.08); color: #1f52ea; }
+.sidebar-link.active { background: rgba(54,115,245,0.12); color: #1f52ea; }
+.sidebar-link.active .icon-wrap { background: #1f52ea !important; color: #fff !important; }
+
+.badge-green  { background: #dcfce7; color: #16a34a; }
+.badge-blue   { background: #dbeafe; color: #2563eb; }
+.badge-amber  { background: #fef3c7; color: #d97706; }
+.badge-red    { background: #fee2e2; color: #dc2626; }
+.badge-purple { background: #ede9fe; color: #7c3aed; }
+.badge-gray   { background: #f1f5f9; color: #64748b; }
+
+.scrollbar-thin::-webkit-scrollbar       { width: 4px; }
+.scrollbar-thin::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
