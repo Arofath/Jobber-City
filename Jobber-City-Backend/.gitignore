@@ -1,0 +1,12 @@
+.env
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+.notes/
+tes.html
+
+serviceAccountKey.json
+serviceAccountKey.json
